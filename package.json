@@ -1,16 +1,1 @@
-﻿{
-  "name": "charter-calendar-dashboard",
-  "version": "1.0.0",
-  "scripts": {
-    "test": "jest"
-  },
-  "jest": {
-    "testEnvironment": "jsdom",
-    "moduleFileExtensions": ["js", "json"],
-    "testMatch": ["**/tests/**/*.test.js"]
-  },
-  "devDependencies": {
-    "jest": "^29.0.0",
-    "jest-environment-jsdom": "^29.0.0"
-  }
-}
+﻿{"name":"charter-calendar-dashboard","version":"1.0.0","scripts":{"test":"jest"},"jest":{"testEnvironment":"jsdom","moduleFileExtensions":["js","json"],"testMatch":["**/tests/**/*.test.js"]},"devDependencies":{"jest":"^29.0.0","jest-environment-jsdom":"^29.0.0"}}
