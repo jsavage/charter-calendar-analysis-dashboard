@@ -22,3 +22,5 @@ describe('Data Loading and Refresh', () => {
         expect(dashboard.data.bookings).toBeInstanceOf(Array);
     });
 });
+
+const DashboardManager = require('../web/js/dashboard.js');

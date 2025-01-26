@@ -23,3 +23,7 @@ describe('Browser Compatibility', () => {
         expect(typeof window.localStorage).toBe('object');
     });
 });
+
+beforeEach(() => {
+    document.body.innerHTML = '<div id="dashboard"></div>';
+});
