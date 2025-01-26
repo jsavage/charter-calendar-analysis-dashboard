@@ -1,0 +1,91 @@
+{
+  "bookings": [
+    {
+      "yacht_name": "Yacht Alpha",
+      "booking_ref": "B2024-001",
+      "customer_name": "John Smith",
+      "start_date": "2024-04-01",
+      "end_date": "2024-04-07",
+      "skipper_details": "Skipper One",
+      "price": 2500,
+      "price_explanation": "7 days peak season"
+    },
+    {
+      "yacht_name": "Yacht Beta",
+      "booking_ref": "B2024-002",
+      "customer_name": "David Jones",
+      "start_date": "2024-04-15",
+      "end_date": "2024-04-18",
+      "skipper_details": "Skipper Two",
+      "price": 1500,
+      "price_explanation": "3 days mid-week"
+    },
+    {
+      "yacht_name": "Yacht Alpha",
+      "booking_ref": "B2024-003",
+      "customer_name": "Robert Brown",
+      "start_date": "2024-05-01",
+      "end_date": "2024-05-01",
+      "skipper_details": "Skipper Three",
+      "price": 750,
+      "price_explanation": "1 day charter"
+    },
+    {
+      "yacht_name": "Yacht Beta",
+      "booking_ref": "B2024-004",
+      "customer_name": "Michael Wilson",
+      "start_date": "2024-05-15",
+      "end_date": "2024-05-21",
+      "skipper_details": "Skipper One",
+      "price": 2800,
+      "price_explanation": "7 days peak season"
+    }
+  ],
+  "monthly_stats": {
+    "April 2024": {
+      "Yacht Alpha": {
+        "available": 30,
+        "booked": 7,
+        "revenue": 2500
+      },
+      "Yacht Beta": {
+        "available": 30,
+        "booked": 3,
+        "revenue": 1500
+      }
+    },
+    "May 2024": {
+      "Yacht Alpha": {
+        "available": 31,
+        "booked": 1,
+        "revenue": 750
+      },
+      "Yacht Beta": {
+        "available": 31,
+        "booked": 7,
+        "revenue": 2800
+      }
+    }
+  },
+  "skipper_stats": {
+    "Skipper One": {
+      "total_days": 14,
+      "yachts": {
+        "Yacht Alpha": 7,
+        "Yacht Beta": 7
+      }
+    },
+    "Skipper Two": {
+      "total_days": 3,
+      "yachts": {
+        "Yacht Beta": 3
+      }
+    },
+    "Skipper Three": {
+      "total_days": 1,
+      "yachts": {
+        "Yacht Alpha": 1
+      }
+    }
+  }
+}
