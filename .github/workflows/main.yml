@@ -11,14 +11,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Setup test data
+        run: |
+          mkdir -p data
+          cp data/test_calendar_data.json data/calendar_data.json
+      - name: Create package.json
+        run: |
+          echo '{"name":"charter-calendar-dashboard","version":"1.0.0","scripts":{"test":"jest"},"jest":{"testEnvironment":"jsdom","moduleFileExtensions":["js","json"],"testMatch":["**/tests/**/*.test.js"]},"devDependencies":{"jest":"^29.0.0","jest-environment-jsdom":"^29.0.0"}}' > package.json
       - name: Validate JSON
         run: |
-          jq . data/test_calendar_data.json
+          jq . data/calendar_data.json
           
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Setup test data
+        run: |
+          mkdir -p data
+          cp data/test_calendar_data.json data/calendar_data.json
+      - name: Create package.json
+        run: |
+          echo '{"name":"charter-calendar-dashboard","version":"1.0.0","scripts":{"test":"jest"},"jest":{"testEnvironment":"jsdom","moduleFileExtensions":["js","json"],"testMatch":["**/tests/**/*.test.js"]},"devDependencies":{"jest":"^29.0.0","jest-environment-jsdom":"^29.0.0"}}' > package.json
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
