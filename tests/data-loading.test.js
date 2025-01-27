@@ -23,5 +23,5 @@ describe('Data Loading and Refresh', () => {
     });
 });
 
-import fetch from 'node-fetch';
-import { DashboardManager } from '../web/js/dashboard.js';
+const fetch = require('node-fetch');
+const { DashboardManager } = require('../web/js/dashboard.js');import { DashboardManager } from '../web/js/dashboard.js';

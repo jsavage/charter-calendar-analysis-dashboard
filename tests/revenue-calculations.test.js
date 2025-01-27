@@ -10,7 +10,6 @@ describe('Revenue Calculations', () => {
             
             const calculatedRevenue = monthlyBookings.reduce((sum, booking) => sum + booking.price, 0);
             const reportedRevenue = Object.values(yachtData).reduce((sum, stats) => sum + stats.revenue, 0);
-            
             expect(calculatedRevenue).toBe(reportedRevenue);
         });
     });

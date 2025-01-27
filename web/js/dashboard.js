@@ -12,7 +12,7 @@ class DashboardManager {
 
     async loadData() {
         try {
-            const response = await fetch('data/calendar_data.json');
+            const response = await fetch('file://' + __dirname + '/data/calendar_data.json');
             this.data = await response.json();
             console.log('Loaded data:', this.data);
         } catch (error) {
