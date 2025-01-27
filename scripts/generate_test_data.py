@@ -30,5 +30,5 @@ test_data = {
 }
 
 # Write the transformed data to test_calendar_data.json with pretty printing
-with open('data/test_calendar_data.json', 'w') as f:
+with open('data/sanitised_calendar_data.json', 'w') as f:
     json.dump(test_data, f, indent=2)  # indent=2 for readable formatting
