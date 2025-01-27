@@ -12,7 +12,9 @@ class DashboardManager {
 
     async loadData() {
         try {
-            const response = await fetch('file://' + __dirname + '/data/calendar_data.json');
+            const path = require('path');
+            const filePath = path.join(process.cwd(), 'data', 'calendar_data.json');
+            const response = await fetch('file://' + filePath);
             this.data = await response.json();
             console.log('Loaded data:', this.data);
         } catch (error) {
