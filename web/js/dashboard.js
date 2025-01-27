@@ -1,4 +1,4 @@
-export class DashboardManager {
+class DashboardManager {
     constructor() {
         console.log('DashboardManager initialized');
         this.data = null;
@@ -377,5 +377,4 @@ export class DashboardManager {
     }
 }
 
-// Initialize the dashboard
-const dashboard = new DashboardManager();
+module.exports = DashboardManager;const dashboard = new DashboardManager();
