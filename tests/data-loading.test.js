@@ -1,7 +1,11 @@
+const fs = require('fs');
+const path = require('path');
+const DashboardManager = require('../web/js/dashboard.js');
+
 describe('Data Loading and Refresh', () => {
-    test('Successful JSON data loading', async () => {
-        const response = await fetch('data/calendar_data.json');
-        const data = await response.json();
+    test('Successful JSON data loading', () => {
+        const filePath = path.join(process.cwd(), 'data', 'calendar_data.json');
+        const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
         expect(data).toHaveProperty('bookings');
         expect(data).toHaveProperty('monthly_stats');
     });
@@ -11,8 +15,7 @@ describe('Data Loading and Refresh', () => {
         await dashboard.loadData();
         expect(dashboard.data).toBeDefined();
         expect(dashboard.data.bookings).toBeInstanceOf(Array);
+        expect(dashboard.data.monthly_stats).toBeDefined();
+        expect(dashboard.data.skipper_stats).toBeDefined();
     });
 });
-
-const fetch = require('node-fetch');
-const DashboardManager = require('../web/js/dashboard.js');
