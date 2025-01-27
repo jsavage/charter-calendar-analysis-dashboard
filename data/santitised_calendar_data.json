@@ -1,0 +1,468 @@
+{
+  "bookings": [
+    {
+      "yacht_name": "Celtic Flame II",
+      "booking_ref": "CF / 29 / 2025",
+      "customer_name": "Skip C...",
+      "customer_phone": "01775 ...",
+      "skipper_details": "Geoff ...",
+      "location": "Plymouth Yacht Haven",
+      "start_month": "April",
+      "start_date": "2025-04-06",
+      "end_date": "2025-04-13",
+      "calendar_days": 8,
+      "full_24hr_periods": 6.96,
+      "price": 1041,
+      "season": "lowSeason",
+      "price_explanation": "Celtic Flame II full-week rate \u00a31041 (lowSeason)"
+    },
+    {
+      "yacht_name": "Ocean Flame IV",
+      "booking_ref": "OF / 34 / 2025",
+      "customer_name": "Malcol...",
+      "customer_phone": "079675...",
+      "skipper_details": "Malcol...",
+      "location": "Shamrock Quay, Southampto",
+      "start_month": "April",
+      "start_date": "2025-04-24",
+      "end_date": "2025-04-27",
+      "calendar_days": 4,
+      "full_24hr_periods": 2.96,
+      "price": 739,
+      "season": "lowSeason",
+      "price_explanation": "Ocean Flame IV half-week rate \u00a3739 (lowSeason)"
+    },
+    {
+      "yacht_name": "Ocean Flame IV",
+      "booking_ref": "OF / 35 / 2025",
+      "customer_name": "Chris ...",
+      "customer_phone": "077591...",
+      "skipper_details": "Geoff ...",
+      "location": "Shamrock Quay, Southampto",
+      "start_month": "April",
+      "start_date": "2025-04-27",
+      "end_date": "2025-05-01",
+      "calendar_days": 5,
+      "full_24hr_periods": 3.96,
+      "price": 1257,
+      "season": "lowSeason",
+      "price_explanation": "Ocean Flame IV full-week rate \u00a31257 (lowSeason)"
+    },
+    {
+      "yacht_name": "Hebridean Flame II",
+      "booking_ref": "HF /  / 2025",
+      "customer_name": "Skip C...",
+      "customer_phone": "01775 ...",
+      "skipper_details": "01775 ...",
+      "location": "Largs & Dunstaffnage",
+      "start_month": "April",
+      "start_date": "2025-04-30",
+      "end_date": "2025-08-10",
+      "calendar_days": 103,
+      "full_24hr_periods": 101.96,
+      "price": 18337,
+      "season": "lowSeason",
+      "price_explanation": "Hebridean Flame II: 14 x full-week rate \u00a31257 plus half-week rate \u00a3739 (lowSeason)"
+    },
+    {
+      "yacht_name": "Hebridean Flame II",
+      "booking_ref": "HF / 36 / 2025",
+      "customer_name": "Skip C...",
+      "customer_phone": "01775 ...",
+      "skipper_details": "John P...",
+      "location": "Largs & Dunstaffnage",
+      "start_month": "May",
+      "start_date": "2025-05-01",
+      "end_date": "2025-05-08",
+      "calendar_days": 8,
+      "full_24hr_periods": 6.96,
+      "price": 1257,
+      "season": "lowSeason",
+      "price_explanation": "Hebridean Flame II full-week rate \u00a31257 (lowSeason)"
+    },
+    {
+      "yacht_name": "Hebridean Flame II",
+      "booking_ref": "HF / 38 / 2025",
+      "customer_name": "Skip C...",
+      "customer_phone": "01775 ...",
+      "skipper_details": "01775 ...",
+      "location": "Largs & Dunstaffnage",
+      "start_month": "May",
+      "start_date": "2025-05-08",
+      "end_date": "2025-05-15",
+      "calendar_days": 8,
+      "full_24hr_periods": 6.96,
+      "price": 1257,
+      "season": "lowSeason",
+      "price_explanation": "Hebridean Flame II full-week rate \u00a31257 (lowSeason)"
+    },
+    {
+      "yacht_name": "Hebridean Flame II",
+      "booking_ref": "HF / 42 / 2025",
+      "customer_name": "John P...",
+      "customer_phone": "07721 ...",
+      "skipper_details": "John P...",
+      "location": "Largs & Dunstaffnage",
+      "start_month": "May",
+      "start_date": "2025-05-22",
+      "end_date": "2025-06-05",
+      "calendar_days": 15,
+      "full_24hr_periods": 13.96,
+      "price": 3253,
+      "season": "lowSeason",
+      "price_explanation": "Hebridean Flame II: 2 x full-week rate \u00a31257 plus half-week rate \u00a3739 (lowSeason)"
+    },
+    {
+      "yacht_name": "Hebridean Flame II",
+      "booking_ref": "HF / 46 / 2025",
+      "customer_name": "Steven...",
+      "customer_phone": "078266...",
+      "skipper_details": "Steven...",
+      "location": "Largs & Dunstaffnage",
+      "start_month": "June",
+      "start_date": "2025-06-05",
+      "end_date": "2025-06-19",
+      "calendar_days": 15,
+      "full_24hr_periods": 13.96,
+      "price": 4651,
+      "season": "midSeason",
+      "price_explanation": "Hebridean Flame II: 2 x full-week rate \u00a31797 plus half-week rate \u00a31057 (midSeason)"
+    },
+    {
+      "yacht_name": "Celtic Flame II",
+      "booking_ref": "CF / 47 / 2025",
+      "customer_name": "Mike R...",
+      "customer_phone": "",
+      "skipper_details": "Mike R...",
+      "location": "Plymouth Yacht Haven",
+      "start_month": "June",
+      "start_date": "2025-06-08",
+      "end_date": "2025-06-15",
+      "calendar_days": 8,
+      "full_24hr_periods": 6.96,
+      "price": 1521,
+      "season": "midSeason",
+      "price_explanation": "Celtic Flame II full-week rate \u00a31521 (midSeason)"
+    },
+    {
+      "yacht_name": "Hebridean Flame II",
+      "booking_ref": "HF / 50 / 2025",
+      "customer_name": "Allen ...",
+      "customer_phone": "07957 ...",
+      "skipper_details": "Allen ...",
+      "location": "Largs & Dunstaffnage",
+      "start_month": "June",
+      "start_date": "2025-06-19",
+      "end_date": "2025-07-03",
+      "calendar_days": 15,
+      "full_24hr_periods": 13.96,
+      "price": 4651,
+      "season": "midSeason",
+      "price_explanation": "Hebridean Flame II: 2 x full-week rate \u00a31797 plus half-week rate \u00a31057 (midSeason)"
+    },
+    {
+      "yacht_name": "Ocean Flame IV",
+      "booking_ref": "OF / 51 / 2025",
+      "customer_name": "Alex M...",
+      "customer_phone": "07515 ...",
+      "skipper_details": "Alex M...",
+      "location": "Shamrock Quay, Southampto",
+      "start_month": "June",
+      "start_date": "2025-06-22",
+      "end_date": "2025-06-29",
+      "calendar_days": 8,
+      "full_24hr_periods": 6.96,
+      "price": 1797,
+      "season": "midSeason",
+      "price_explanation": "Ocean Flame IV full-week rate \u00a31797 (midSeason)"
+    },
+    {
+      "yacht_name": "Ocean Flame IV",
+      "booking_ref": "OF / 53 / 2025",
+      "customer_name": "Malcol...",
+      "customer_phone": "079675...",
+      "skipper_details": "Malcol...",
+      "location": "Shamrock Quay, Southampto",
+      "start_month": "June",
+      "start_date": "2025-06-29",
+      "end_date": "2025-07-06",
+      "calendar_days": 8,
+      "full_24hr_periods": 6.96,
+      "price": 1797,
+      "season": "midSeason",
+      "price_explanation": "Ocean Flame IV full-week rate \u00a31797 (midSeason)"
+    },
+    {
+      "yacht_name": "Hebridean Flame II",
+      "booking_ref": "HF / 54 / 2025",
+      "customer_name": "Geoff ...",
+      "customer_phone": "07969 ...",
+      "skipper_details": "Geoff ...",
+      "location": "Largs & Dunstaffnage",
+      "start_month": "July",
+      "start_date": "2025-07-03",
+      "end_date": "2025-07-17",
+      "calendar_days": 15,
+      "full_24hr_periods": 13.96,
+      "price": 4651,
+      "season": "midSeason",
+      "price_explanation": "Hebridean Flame II: 2 x full-week rate \u00a31797 plus half-week rate \u00a31057 (midSeason)"
+    },
+    {
+      "yacht_name": "Ocean Flame IV",
+      "booking_ref": "OF / 55 / 2025",
+      "customer_name": "Andy S...",
+      "customer_phone": "079510...",
+      "skipper_details": "Andy S...",
+      "location": "Shamrock Quay, Southampto",
+      "start_month": "July",
+      "start_date": "2025-07-06",
+      "end_date": "2025-07-13",
+      "calendar_days": 8,
+      "full_24hr_periods": 6.96,
+      "price": 1797,
+      "season": "midSeason",
+      "price_explanation": "Ocean Flame IV full-week rate \u00a31797 (midSeason)"
+    },
+    {
+      "yacht_name": "Ocean Flame IV",
+      "booking_ref": "OF / 57 / 2025",
+      "customer_name": "Skip C...",
+      "customer_phone": "01775 ...",
+      "skipper_details": "01775 ...",
+      "location": "Shamrock Quay, Southampto",
+      "start_month": "July",
+      "start_date": "2025-07-13",
+      "end_date": "2025-07-27",
+      "calendar_days": 15,
+      "full_24hr_periods": 13.96,
+      "price": 4651,
+      "season": "midSeason",
+      "price_explanation": "Ocean Flame IV: 2 x full-week rate \u00a31797 plus half-week rate \u00a31057 (midSeason)"
+    },
+    {
+      "yacht_name": "Hebridean Flame II",
+      "booking_ref": "HF / 58 / 2025",
+      "customer_name": "Dougla...",
+      "customer_phone": "07803 ...",
+      "skipper_details": "Dougla...",
+      "location": "Largs & Dunstaffnage",
+      "start_month": "July",
+      "start_date": "2025-07-17",
+      "end_date": "2025-07-24",
+      "calendar_days": 8,
+      "full_24hr_periods": 6.96,
+      "price": 1797,
+      "season": "midSeason",
+      "price_explanation": "Hebridean Flame II full-week rate \u00a31797 (midSeason)"
+    },
+    {
+      "yacht_name": "Ocean Flame IV",
+      "booking_ref": "OF / 77 / 2025",
+      "customer_name": "Neil T...",
+      "customer_phone": "078012...",
+      "skipper_details": "Robin ...",
+      "location": "Shamrock Quay, Southampto",
+      "start_month": "September",
+      "start_date": "2025-09-21",
+      "end_date": "2025-09-25",
+      "calendar_days": 5,
+      "full_24hr_periods": 3.96,
+      "price": 1797,
+      "season": "midSeason",
+      "price_explanation": "Ocean Flame IV full-week rate \u00a31797 (midSeason)"
+    }
+  ],
+  "monthly_stats": {
+    "April": {
+      "Ocean Flame IV": {
+        "available": 30,
+        "booked": 7,
+        "revenue": 1559.8500000000001
+      },
+      "Celtic Flame II": {
+        "available": 30,
+        "booked": 7,
+        "revenue": 910.875
+      },
+      "Hebridean Flame II": {
+        "available": 30,
+        "booked": 1,
+        "revenue": 178.02912621359224
+      }
+    },
+    "May": {
+      "Ocean Flame IV": {
+        "available": 31,
+        "booked": 0,
+        "revenue": 0
+      },
+      "Celtic Flame II": {
+        "available": 31,
+        "booked": 0,
+        "revenue": 0
+      },
+      "Hebridean Flame II": {
+        "available": 31,
+        "booked": 31,
+        "revenue": 5518.902912621364
+      }
+    },
+    "June": {
+      "Ocean Flame IV": {
+        "available": 30,
+        "booked": 9,
+        "revenue": 2021.625
+      },
+      "Celtic Flame II": {
+        "available": 30,
+        "booked": 7,
+        "revenue": 1330.875
+      },
+      "Hebridean Flame II": {
+        "available": 30,
+        "booked": 30,
+        "revenue": 5340.873786407771
+      }
+    },
+    "July": {
+      "Ocean Flame IV": {
+        "available": 31,
+        "booked": 26,
+        "revenue": 7036.4333333333325
+      },
+      "Celtic Flame II": {
+        "available": 31,
+        "booked": 0,
+        "revenue": 0
+      },
+      "Hebridean Flame II": {
+        "available": 31,
+        "booked": 31,
+        "revenue": 5518.902912621364
+      }
+    },
+    "August": {
+      "Ocean Flame IV": {
+        "available": 31,
+        "booked": 0,
+        "revenue": 0
+      },
+      "Celtic Flame II": {
+        "available": 31,
+        "booked": 0,
+        "revenue": 0
+      },
+      "Hebridean Flame II": {
+        "available": 31,
+        "booked": 9,
+        "revenue": 1602.2621359223301
+      }
+    },
+    "September": {
+      "Ocean Flame IV": {
+        "available": 30,
+        "booked": 4,
+        "revenue": 1437.6
+      },
+      "Celtic Flame II": {
+        "available": 30,
+        "booked": 0,
+        "revenue": 0
+      },
+      "Hebridean Flame II": {
+        "available": 30,
+        "booked": 0,
+        "revenue": 0
+      }
+    },
+    "October": {
+      "Ocean Flame IV": {
+        "available": 31,
+        "booked": 0,
+        "revenue": 0
+      },
+      "Celtic Flame II": {
+        "available": 31,
+        "booked": 0,
+        "revenue": 0
+      },
+      "Hebridean Flame II": {
+        "available": 31,
+        "booked": 0,
+        "revenue": 0
+      }
+    }
+  },
+  "skipper_stats": {
+    "Geoff ...": {
+      "total_days": 25,
+      "yachts": {
+        "Celtic Flame II": 7,
+        "Ocean Flame IV": 4,
+        "Hebridean Flame II": 14
+      }
+    },
+    "Malcol...": {
+      "total_days": 10,
+      "yachts": {
+        "Ocean Flame IV": 10
+      }
+    },
+    "01775 ...": {
+      "total_days": 123,
+      "yachts": {
+        "Hebridean Flame II": 109,
+        "Ocean Flame IV": 14
+      }
+    },
+    "John P...": {
+      "total_days": 21,
+      "yachts": {
+        "Hebridean Flame II": 21
+      }
+    },
+    "Steven...": {
+      "total_days": 14,
+      "yachts": {
+        "Hebridean Flame II": 14
+      }
+    },
+    "Mike R...": {
+      "total_days": 7,
+      "yachts": {
+        "Celtic Flame II": 7
+      }
+    },
+    "Allen ...": {
+      "total_days": 14,
+      "yachts": {
+        "Hebridean Flame II": 14
+      }
+    },
+    "Alex M...": {
+      "total_days": 7,
+      "yachts": {
+        "Ocean Flame IV": 7
+      }
+    },
+    "Andy S...": {
+      "total_days": 7,
+      "yachts": {
+        "Ocean Flame IV": 7
+      }
+    },
+    "Dougla...": {
+      "total_days": 7,
+      "yachts": {
+        "Hebridean Flame II": 7
+      }
+    },
+    "Robin ...": {
+      "total_days": 4,
+      "yachts": {
+        "Ocean Flame IV": 4
+      }
+    }
+  }
+}
