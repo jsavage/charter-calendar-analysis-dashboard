@@ -13,18 +13,17 @@ jobs:
       - uses: actions/checkout@v3
       - name: Setup test data
         run: cp ./data/sanitised_calendar_data.json ./data/calendar_data.json
-
       - name: Create package.json
         run: echo '{"name":"charter-calendar-dashboard","version":"1.0.0","type":"module","scripts":{"test":"jest"},"jest":{"testEnvironment":"jsdom","setupFiles":["./tests/jest.setup.js"],"moduleFileExtensions":["js","json"],"testMatch":["**/tests/**/*.test.js"],"transform":{"^.+\\.js$":"babel-jest"}},"devDependencies":{"jest":"^29.0.0","jest-environment-jsdom":"^29.0.0","node-fetch":"^2.6.1","@babel/preset-env":"^7.16.0"}}' > package.json
-
       - name: Validate JSON
-        run: jq . data/calendar_data.json          
+        run: jq . data/calendar_data.json
+
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-  - name: Setup test data
-    run: cp ./data/sanitised_calendar_data.json ./data/calendar_data.json
+      - name: Setup test data
+        run: cp ./data/sanitised_calendar_data.json ./data/calendar_data.json
       - name: Create package.json
         run: echo '{"name":"charter-calendar-dashboard","version":"1.0.0","type":"module","scripts":{"test":"jest"},"jest":{"testEnvironment":"jsdom","setupFiles":["./tests/jest.setup.js"],"moduleFileExtensions":["js","json"],"testMatch":["**/tests/**/*.test.js"],"transform":{"^.+\\.js$":"babel-jest"}},"devDependencies":{"jest":"^29.0.0","jest-environment-jsdom":"^29.0.0","node-fetch":"^2.6.1","@babel/preset-env":"^7.16.0"}}' > package.json
       - name: Set up Node.js
@@ -35,7 +34,6 @@ jobs:
         run: npm install
       - name: Run tests
         run: npm test
-
       - name: Create babel.config.js
         run: |
           echo 'module.exports = {presets: ["@babel/preset-env"]};' > babel.config.js
