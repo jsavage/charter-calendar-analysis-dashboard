@@ -38,3 +38,9 @@ jobs:
         run: npm install
       - name: Run tests
         run: npm test
+
+      - name: Create babel.config.js
+        run: |
+          echo 'module.exports = {presets: ["@babel/preset-env"]};' > babel.config.js
+
+Let's commit these changes and run the tests again.
